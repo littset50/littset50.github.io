@@ -1789,3 +1789,15 @@
   content: "\eb1a";
 }
 
+.icon-prevproblem:before {
+  content: "\25B2";
+}
+.icon-nextproblem:before {
+  content: "\25BC";
+}
+.icon-withdraw:before {
+  content: "\27B2";
+}
+.icon-nextstep:before {
+  content: "\27A4";
+}
