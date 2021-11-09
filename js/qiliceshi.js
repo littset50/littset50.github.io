@@ -108,7 +108,29 @@ function initPageData(){
 	m_iChangIndex = 0; 
 	m_iTiIndex = 0;
 	
+	var paraChang = getQueryVariable("chang");
+	var paraTi = getQueryVariable("ti");
+	var iChang = parseInt(paraChang);
+	var iTi = parseInt(paraTi);
+
+	if(!isNaN(iChang) && !isNaN(iTi) && iChang>=0 && iChang<32 && iTi>=0 && iTi<10){
+		m_iChangIndex = iChang;
+		m_iTiIndex = iTi;
+	}
+
 	initChangData();
+}
+
+//以下JS函数用于获取url参数:
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(0);
 }
 
 //初始化一场的数据
