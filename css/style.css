@@ -93,6 +93,10 @@ figure figcaption {
   width: 100%;
   overflow: hidden;
   position: relative;
+
+
+
+
 }
 
 #fh5co-aside {
@@ -108,6 +112,9 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+
+
+
 }
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
@@ -263,6 +270,7 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+
 }
 @media screen and (max-width: 1200px) {
   #fh5co-main {
@@ -1197,3 +1205,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   font-weight: bold;
 }
 
+#fh5co-main .fh5co-footer {
+  bottom: 10px;
+  padding: 0 20px;
+}

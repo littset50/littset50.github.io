@@ -212,10 +212,10 @@ function customizeqipu(qipu)
 	for(var i=qipu.m_lstStepArrays.length - 1; i>=0; i--){
 		var steps = qipu.m_lstStepArrays[i];
 		for(var k=0; k<steps.length; k++){
-			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图1/g, "着法1");
-			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图2/g, "着法2");
-			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图3/g, "着法3");
-			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图4/g, "着法4");
+			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图1/g, "着法1 ");
+			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图2/g, "着法2 ");
+			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图3/g, "着法3 ");
+			steps[k].m_extraInfo.m_strComment = steps[k].m_extraInfo.m_strComment.replace(/图4/g, "着法4 ");
 		}
 	}		
 

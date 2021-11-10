@@ -70,20 +70,21 @@
 				</ul>
 			</div>
       	</aside>
-      	<table id="fh5co-main" border="0" style="table-layout:fixed;word-break:break-all;">
+      	<table id="fh5co-main" border="0" style="table-layout:fixed;word-break:break-all; ">
 			<tr>
 				<td width="550" style="float:left;">
 					
 					<canvas id="qipan"   width="500" height="500"	role="button" tabindex="0" style="background-color: #f8cf8d;margin:20px;">
 						您的浏览器不支持 HTML5 canvas 标签。</canvas>
 					<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;
-					<a id="buttonPrevProblem" onclick="clickPrevProblem()"  class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-prevproblem"></i>上一题</a> 
-					<a id="buttonNextProblem" onclick="clickNextProblem()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-nextproblem"></i>下一题</a> 
-					<!-- <a id="buttonRestartProblem" onclick="clickRestartProblem()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-monitor"></i>重来</a> -->
-					<a id="buttonWithdraw" onclick="clickWithdraw()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-withdraw"></i>后退</a> 
-					<a id="buttonNextStep" onclick="clickNextStep()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-nextstep"></i>下一步</a> 
 					
+					<div class="fh5co-footer">
+						<a id="buttonPrevProblem" onclick="clickPrevProblem()"  class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-prevproblem"></i>上一题</a> 
+						<a id="buttonNextProblem" onclick="clickNextProblem()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-nextproblem"></i>下一题</a> 
+						<!-- <a id="buttonRestartProblem" onclick="clickRestartProblem()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-monitor"></i>重来</a> -->
+						<a id="buttonWithdraw" onclick="clickWithdraw()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-withdraw"></i>后退</a> 
+						<a id="buttonNextStep" onclick="clickNextStep()" class="btn btn-primary btn-demo popup-vimeo"> <i class="icon-nextstep"></i>下一步</a> 
+					</div>
 				</td>
 				<td width="300" style="float:left;">
 					<br>
@@ -126,7 +127,7 @@
 						<tr id="chengjizong" style="font-weight: bold;"><td></td><td>本场得分</td><td>100</td><td></td></tr>
 					</table>
 					<br>
-					<p id="comment" style="color: red;"></p>
+					<p id="comment" style="color: red;font-size: medium;"></p>
 
 				</td>
 			</tr>
