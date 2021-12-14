@@ -1,1 +1,318 @@
-var _0x1ba5=["\x6D\x5F\x62\x43\x61\x6E\x44\x72\x61\x77","\x69\x6E\x69\x74\x42\x6F\x61\x72\x64","\x6D\x5F\x63\x61\x6E\x76\x61\x73","\x6D\x5F\x63\x74\x78","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x6D\x5F\x70\x72\x6F\x62\x6C\x65\x6D","\x69\x73\x5F\x61\x75\x74\x6F\x70\x75\x74","\x73\x68\x6F\x77\x42\x6F\x61\x72\x64","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x63\x6C\x65\x61\x72\x52\x65\x63\x74","\x63\x61\x6C\x63\x75\x42\x6F\x61\x72\x64","\x64\x72\x61\x77\x43\x68\x65\x73\x73\x4C\x69\x6E\x65\x73","\x64\x72\x61\x77\x43\x68\x65\x73\x73\x50\x69\x65\x63\x65\x73","\x6D\x5F\x64\x62\x6C\x42\x6F\x61\x72\x64\x4C\x65\x66\x74","\x6D\x5F\x64\x62\x6C\x42\x6F\x61\x72\x64\x54\x6F\x70","\x6D\x5F\x64\x62\x6C\x43\x65\x6C\x6C\x57\x69\x64\x74\x68","\x6D\x5F\x72\x65\x63\x74\x50\x69\x65\x63\x65","\x70\x75\x73\x68","\x73\x74\x72\x6F\x6B\x65\x53\x74\x79\x6C\x65","\x23\x37\x61\x35\x38\x32\x61","\x62\x65\x67\x69\x6E\x50\x61\x74\x68","\x6C\x69\x6E\x65\x57\x69\x64\x74\x68","\x6D\x6F\x76\x65\x54\x6F","\x6C\x69\x6E\x65\x54\x6F","\x73\x74\x72\x6F\x6B\x65","\x66\x69\x6C\x6C\x53\x74\x79\x6C\x65","\x23\x38\x38\x30\x30\x31\x35","\x61\x72\x63","\x66\x69\x6C\x6C","\x63\x6C\x6F\x73\x65\x50\x61\x74\x68","\x69\x6D\x61\x67\x65\x5F\x62\x6C\x61\x63\x6B\x70\x69\x65\x63\x65","\x69\x6D\x61\x67\x65\x5F\x77\x68\x69\x74\x65\x70\x69\x65\x63\x65","\x6C\x65\x66\x74","\x74\x6F\x70","\x64\x72\x61\x77\x49\x6D\x61\x67\x65","\x6C\x65\x6E\x67\x74\x68","\x6D\x5F\x6C\x73\x74\x52\x65\x61\x6C\x53\x74\x65\x70\x73","\x78","\x79","","\x74\x65\x78\x74\x41\x6C\x69\x67\x6E","\x63\x65\x6E\x74\x65\x72","\x74\x65\x78\x74\x42\x61\x73\x65\x6C\x69\x6E\x65","\x6D\x69\x64\x64\x6C\x65","\x77\x68\x69\x74\x65","\x62\x6C\x61\x63\x6B","\x66\x6F\x6E\x74","\x70\x78\x20\x47\x65\x6F\x72\x67\x69\x61","\x63\x65\x6E\x74\x65\x72\x78","\x63\x65\x6E\x74\x65\x72\x79","\x66\x69\x6C\x6C\x54\x65\x78\x74","\x6D\x5F\x69\x57\x72\x6F\x6E\x67\x58","\x6D\x5F\x69\x57\x72\x6F\x6E\x67\x59","\x69\x6D\x61\x67\x65\x5F\x77\x72\x6F\x6E\x67\x70\x69\x65\x63\x65","\x67\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x45\x78\x74\x72\x61\x49\x6E\x66\x6F","\x6D\x5F\x6C\x73\x74\x4C\x42","\x72\x65\x64","\x73","\x6D\x5F\x6C\x73\x74\x54\x52","\x43\x6F\x75\x6E\x74","\x69\x6D\x61\x67\x65\x5F\x74\x72\x69\x67\x67\x65\x72\x70\x69\x65\x63\x65","\x6D\x5F\x6C\x73\x74\x4D\x41","\x69\x6D\x61\x67\x65\x5F\x6D\x61\x72\x6B\x70\x69\x65\x63\x65","\x6D\x5F\x6C\x73\x74\x43\x52","\x69\x6D\x61\x67\x65\x5F\x63\x69\x72\x63\x6C\x65\x70\x69\x65\x63\x65","\x6D\x5F\x6C\x73\x74\x53\x51","\x69\x6D\x61\x67\x65\x5F\x73\x71\x75\x61\x72\x65\x70\x69\x65\x63\x65","\x63\x6C\x69\x63\x6B\x51\x69\x70\x61\x6E","\x68\x69\x74","\x61\x75\x74\x6F\x50\x75\x74\x4E\x65\x78\x74","\x63\x61\x6E\x54\x69\x73\x68\x69"];function Board(){this[_0x1ba5[0]]= false;this[_0x1ba5[1]]= function(_0x69f2x2,_0x69f2x3,_0x69f2x4){this[_0x1ba5[2]]= _0x69f2x2;this[_0x1ba5[3]]= _0x69f2x2[0][_0x1ba5[5]](_0x1ba5[4]);this[_0x1ba5[6]]= _0x69f2x3;this[_0x1ba5[7]]= _0x69f2x4};this[_0x1ba5[8]]= function(){this[_0x1ba5[3]][_0x1ba5[11]](0,0,this[_0x1ba5[2]][0][_0x1ba5[9]],this[_0x1ba5[2]][0][_0x1ba5[10]]);this[_0x1ba5[12]]();this[_0x1ba5[13]]();this[_0x1ba5[14]]()};this[_0x1ba5[12]]= function(){var _0x69f2x5=this[_0x1ba5[2]][_0x1ba5[9]]();var _0x69f2x6=this[_0x1ba5[2]][_0x1ba5[10]]();this[_0x1ba5[0]]= (_0x69f2x5>= 300&& _0x69f2x6>= 300);var _0x69f2x7=(_0x69f2x5< _0x69f2x6?_0x69f2x5:_0x69f2x6)* 19.0/ 20.0;if(_0x69f2x7> 1000){_0x69f2x7= 1000};this[_0x1ba5[15]]= (_0x69f2x5- _0x69f2x7)/ 2.0;this[_0x1ba5[16]]= (_0x69f2x6- _0x69f2x7)/ 2.0;this[_0x1ba5[17]]= _0x69f2x7/ 19.0;var _0x69f2x8=this[_0x1ba5[17]]* 0.9;this[_0x1ba5[18]]= [];for(var _0x69f2x9=0;_0x69f2x9< 19;_0x69f2x9++){this[_0x1ba5[18]][_0x1ba5[19]]([]);for(var _0x69f2xa=0;_0x69f2xa< 19;_0x69f2xa++){var _0x69f2xb=this[_0x1ba5[15]]+ this[_0x1ba5[17]]* 0.5+ this[_0x1ba5[17]]* _0x69f2x9- _0x69f2x8/ 2.0;var _0x69f2xc=this[_0x1ba5[16]]+ this[_0x1ba5[17]]* 0.5+ this[_0x1ba5[17]]* _0x69f2xa- _0x69f2x8/ 2.0;this[_0x1ba5[18]][_0x69f2x9][_0x1ba5[19]]( new Rect(_0x69f2xb,_0x69f2xc,_0x69f2x8,_0x69f2x8))}}};this[_0x1ba5[13]]= function(){this[_0x1ba5[3]][_0x1ba5[20]]= _0x1ba5[21];var _0x69f2xd=this[_0x1ba5[15]]+ this[_0x1ba5[17]]/ 2,_0x69f2xe=this[_0x1ba5[15]]+ this[_0x1ba5[17]]/ 2+ this[_0x1ba5[17]]* (19- 1)+ 1,_0x69f2xf=this[_0x1ba5[16]]+ this[_0x1ba5[17]]/ 2;for(var _0x69f2x10=0;_0x69f2x10< 19;_0x69f2x10++){this[_0x1ba5[3]][_0x1ba5[22]]();this[_0x1ba5[3]][_0x1ba5[23]]= (_0x69f2x10== 0|| _0x69f2x10== 19- 1?3:1);this[_0x1ba5[3]][_0x1ba5[24]](_0x69f2xd,_0x69f2xf);this[_0x1ba5[3]][_0x1ba5[25]](_0x69f2xe,_0x69f2xf);this[_0x1ba5[3]][_0x1ba5[26]]();_0x69f2xf+= this[_0x1ba5[17]]};var _0x69f2x11=this[_0x1ba5[16]]+ this[_0x1ba5[17]]/ 2,_0x69f2x12=this[_0x1ba5[16]]+ this[_0x1ba5[17]]/ 2+ this[_0x1ba5[17]]* (19- 1)+ 1,_0x69f2x13=this[_0x1ba5[15]]+ this[_0x1ba5[17]]/ 2;for(var _0x69f2x10=0;_0x69f2x10< 19;_0x69f2x10++){this[_0x1ba5[3]][_0x1ba5[22]]();this[_0x1ba5[3]][_0x1ba5[23]]= (_0x69f2x10== 0|| _0x69f2x10== 19- 1?3:1);this[_0x1ba5[3]][_0x1ba5[24]](_0x69f2x13,_0x69f2x11);this[_0x1ba5[3]][_0x1ba5[25]](_0x69f2x13,_0x69f2x12);this[_0x1ba5[3]][_0x1ba5[26]]();_0x69f2x13+= this[_0x1ba5[17]]};var _0x69f2x14=[[3,3],[9,3],[15,3],[3,9],[9,9],[15,9],[3,15],[9,15],[15,15]];for(var _0x69f2x10=0;_0x69f2x10< 9;_0x69f2x10++){var _0x69f2x15=this[_0x1ba5[15]]+ this[_0x1ba5[17]]/ 2+ this[_0x1ba5[17]]* _0x69f2x14[_0x69f2x10][0];var _0x69f2x16=this[_0x1ba5[16]]+ this[_0x1ba5[17]]/ 2+ this[_0x1ba5[17]]* _0x69f2x14[_0x69f2x10][1];var _0x69f2x17=3;this[_0x1ba5[3]][_0x1ba5[27]]= _0x1ba5[28];this[_0x1ba5[3]][_0x1ba5[22]]();this[_0x1ba5[3]][_0x1ba5[29]](_0x69f2x15,_0x69f2x16,_0x69f2x17,0,10,false);this[_0x1ba5[3]][_0x1ba5[30]]();this[_0x1ba5[3]][_0x1ba5[31]]()}};this[_0x1ba5[14]]= function(){for(var _0x69f2x9=0;_0x69f2x9< 19;_0x69f2x9++){for(var _0x69f2xa=0;_0x69f2xa< 19;_0x69f2xa++){var _0x69f2x18=this[_0x1ba5[6]].GetPointStatus(_0x69f2x9,_0x69f2xa);if(_0x69f2x18== BLACK|| _0x69f2x18== WHITE){this[_0x1ba5[3]][_0x1ba5[36]](_0x69f2x18== BLACK?this[_0x1ba5[32]]:this[_0x1ba5[33]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[34]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[35]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[9]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[10]]);var _0x69f2x19=-1;for(var _0x69f2x10=this[_0x1ba5[6]][_0x1ba5[38]][_0x1ba5[37]]- 1;_0x69f2x10>= 0;_0x69f2x10--){if(this[_0x1ba5[6]][_0x1ba5[38]][_0x69f2x10][_0x1ba5[39]]== _0x69f2x9&& this[_0x1ba5[6]][_0x1ba5[38]][_0x69f2x10][_0x1ba5[40]]== _0x69f2xa){_0x69f2x19= _0x69f2x10;break}};if(_0x69f2x19>= 0){var _0x69f2x1a=_0x1ba5[41]+ (_0x69f2x19+ 1);var _0x69f2x1b=this[_0x1ba5[17]]* 0.6;this[_0x1ba5[3]][_0x1ba5[42]]= _0x1ba5[43];this[_0x1ba5[3]][_0x1ba5[44]]= _0x1ba5[45];this[_0x1ba5[3]][_0x1ba5[27]]= (_0x69f2x18== BLACK?_0x1ba5[46]:_0x1ba5[47]);this[_0x1ba5[3]][_0x1ba5[48]]= _0x1ba5[41]+ _0x69f2x1b+ _0x1ba5[49];this[_0x1ba5[3]][_0x1ba5[52]](_0x69f2x1a,this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[50]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[51]])}}else {if(_0x69f2x9== this[_0x1ba5[6]][_0x1ba5[53]]&& _0x69f2xa== this[_0x1ba5[6]][_0x1ba5[54]]){this[_0x1ba5[3]][_0x1ba5[36]](this[_0x1ba5[55]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[34]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[35]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[9]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[10]])}};var _0x69f2x1c=this[_0x1ba5[6]][_0x1ba5[56]]();var _0x69f2x1d=_0x69f2x1c[_0x1ba5[57]];for(var _0x69f2x10=0;_0x69f2x10< _0x69f2x1d[_0x1ba5[37]];_0x69f2x10++){if(_0x69f2x9== _0x69f2x1d[_0x69f2x10][_0x1ba5[39]]&& _0x69f2xa== _0x69f2x1d[_0x69f2x10][_0x1ba5[40]]){var _0x69f2x1b=this[_0x1ba5[17]]* 1.2;this[_0x1ba5[3]][_0x1ba5[42]]= _0x1ba5[43];this[_0x1ba5[3]][_0x1ba5[44]]= _0x1ba5[45];this[_0x1ba5[3]][_0x1ba5[27]]= _0x1ba5[58];this[_0x1ba5[3]][_0x1ba5[48]]= _0x1ba5[41]+ _0x69f2x1b+ _0x1ba5[49];this[_0x1ba5[3]][_0x1ba5[52]](_0x69f2x1d[_0x69f2x10][_0x1ba5[59]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[50]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[51]]);break}};var _0x69f2x1e=_0x69f2x1c[_0x1ba5[60]];for(var _0x69f2x10=0;_0x69f2x10< _0x69f2x1e[_0x1ba5[61]];_0x69f2x10++){if(_0x69f2x9== _0x69f2x1e[_0x69f2x10][_0x1ba5[39]]&& _0x69f2xa== _0x69f2x1e[_0x69f2x10][_0x1ba5[40]]){this[_0x1ba5[3]][_0x1ba5[36]](this[_0x1ba5[62]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[34]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[35]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[9]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[10]]);break}};var _0x69f2x1f=_0x69f2x1c[_0x1ba5[63]];for(var _0x69f2x10=0;_0x69f2x10< _0x69f2x1f[_0x1ba5[61]];_0x69f2x10++){if(_0x69f2x9== _0x69f2x1f[_0x69f2x10][_0x1ba5[39]]&& _0x69f2xa== _0x69f2x1f[_0x69f2x10][_0x1ba5[40]]){this[_0x1ba5[3]][_0x1ba5[36]](this[_0x1ba5[64]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[34]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[35]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[9]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[10]]);break}};var _0x69f2x20=_0x69f2x1c[_0x1ba5[65]];for(var _0x69f2x10=0;_0x69f2x10< _0x69f2x20[_0x1ba5[61]];_0x69f2x10++){if(_0x69f2x9== _0x69f2x20[_0x69f2x10][_0x1ba5[39]]&& _0x69f2xa== _0x69f2x20[_0x69f2x10][_0x1ba5[40]]){this[_0x1ba5[3]][_0x1ba5[36]](this[_0x1ba5[66]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[34]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[35]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[9]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[10]]);break}};var _0x69f2x21=_0x69f2x1c[_0x1ba5[67]];for(var _0x69f2x10=0;_0x69f2x10< _0x69f2x21[_0x1ba5[61]];_0x69f2x10++){if(_0x69f2x9== _0x69f2x21[_0x69f2x10][_0x1ba5[39]]&& _0x69f2xa== _0x69f2x21[_0x69f2x10][_0x1ba5[40]]){this[_0x1ba5[3]][_0x1ba5[36]](this[_0x1ba5[68]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[34]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[35]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[9]],this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[10]]);break}}}}};this[_0x1ba5[69]]= function(_0x69f2x22,_0x69f2x23){for(var _0x69f2x9=0;_0x69f2x9< 19;_0x69f2x9++){for(var _0x69f2xa=0;_0x69f2xa< 19;_0x69f2xa++){if(this[_0x1ba5[18]][_0x69f2x9][_0x69f2xa][_0x1ba5[70]](_0x69f2x22,_0x69f2x23)){if(this[_0x1ba5[6]].GetPointStatus(_0x69f2x9,_0x69f2xa)== EMPTY){var _0x69f2x24=this[_0x1ba5[6]].GetQipuStatus();var _0x69f2x25=this[_0x1ba5[6]].PutPiece(_0x69f2x9,_0x69f2xa);if(_0x69f2x24!= QIPUSTATUS_FINISHED&& this[_0x1ba5[6]].GetQipuStatus()== QIPUSTATUS_FINISHED){};this[_0x1ba5[8]]();return true}else {return false;;}}}};return false};this[_0x1ba5[71]]= function(){if(!this[_0x1ba5[6]][_0x1ba5[72]]()){return false};var _0x69f2x26=this[_0x1ba5[6]].GetNextCorrectSteps();if(_0x69f2x26!= null){this[_0x1ba5[6]].PutPiece(_0x69f2x26[0][_0x1ba5[39]],_0x69f2x26[0][_0x1ba5[40]]);this[_0x1ba5[8]]();return true};return false}}function Rect(_0x69f2x28,_0x69f2x29,_0x69f2x2a,_0x69f2x2b){this[_0x1ba5[34]]= _0x69f2x28;this[_0x1ba5[35]]= _0x69f2x29;this[_0x1ba5[9]]= _0x69f2x2a;this[_0x1ba5[10]]= _0x69f2x2b;this[_0x1ba5[50]]= this[_0x1ba5[34]]+ this[_0x1ba5[9]]/ 2;this[_0x1ba5[51]]= this[_0x1ba5[35]]+ this[_0x1ba5[10]]/ 2;this[_0x1ba5[70]]= function(_0x69f2x2c,_0x69f2x2d){return _0x69f2x2c>= this[_0x1ba5[34]]&& _0x69f2x2c<= this[_0x1ba5[34]]+ this[_0x1ba5[9]]&& _0x69f2x2d>= this[_0x1ba5[35]]&& _0x69f2x2d<= this[_0x1ba5[35]]+ this[_0x1ba5[10]]}}
+//棋盘区域的显示和操作
+function Board()
+{	
+	//数据
+	this.m_bCanDraw = false; //是否可以画棋盘，如界面太小就不画
+
+	this.initBoard = function(canvas, problem, is_autoput)
+	{
+		this.m_canvas = canvas;
+		this.m_ctx = canvas[0].getContext('2d');
+		this.m_problem = problem;
+		this.is_autoput = is_autoput;
+	}
+
+	this.showBoard = function()
+	{
+		this.m_ctx.clearRect(0,0,this.m_canvas[0].width,this.m_canvas[0].height);  
+		this.calcuBoard();
+		this.drawChessLines();
+		this.drawChessPieces();
+	}
+
+	this.calcuBoard = function()
+	{
+		var dblCanvasWidth = this.m_canvas.width();
+		var dblCanvasHeight = this.m_canvas.height();
+
+		this.m_bCanDraw = (dblCanvasWidth >= 300 && dblCanvasHeight >= 300); //如果画布太小，就不画
+
+		var dblBoardWidth = (dblCanvasWidth < dblCanvasHeight ? dblCanvasWidth : dblCanvasHeight) * 19.0 / 20.0; //棋盘宽度
+		if (dblBoardWidth > 1000) //屏幕太大时，周边留空白
+			dblBoardWidth = 1000;
+
+		this.m_dblBoardLeft = (dblCanvasWidth - dblBoardWidth) / 2.0;
+		this.m_dblBoardTop = (dblCanvasHeight - dblBoardWidth) / 2.0;
+		this.m_dblCellWidth = dblBoardWidth / 19.0;
+		var dblPieceWidth = this.m_dblCellWidth * 0.9; //棋子宽度/格子宽度
+
+		//m_rectCanvas = new Rect(0, 0, dblCanvasWidth, dblCanvasHeight);
+		//m_rectBoard = new Rect(m_dblBoardLeft, m_dblBoardTop, dblBoardWidth, dblBoardWidth);
+
+		this.m_rectPiece = [];
+		for (var ix = 0; ix < 19; ix++)
+		{
+			this.m_rectPiece.push([]);
+			for (var iy = 0; iy < 19; iy++)
+			{
+				var dblLeft = this.m_dblBoardLeft + this.m_dblCellWidth * 0.5 + this.m_dblCellWidth * ix - dblPieceWidth / 2.0;
+				var dblTop = this.m_dblBoardTop + this.m_dblCellWidth * 0.5 + this.m_dblCellWidth * iy - dblPieceWidth / 2.0;
+				this.m_rectPiece[ix].push(new Rect(dblLeft, dblTop, dblPieceWidth, dblPieceWidth));
+			}
+		}
+
+		//m_symbolStep.FontSize = (float)(m_dblCellWidth * 0.4); //步数的字体
+		//m_symbolLabel.FontSize = (float)(m_dblCellWidth * 0.8);
+	}
+
+	this.drawChessLines = function()
+	{
+		this.m_ctx.strokeStyle =  '#7a582a'; //'#880015'; //线条颜色
+
+		//横线
+		var ox1 = this.m_dblBoardLeft + this.m_dblCellWidth / 2, 
+			ox2 = this.m_dblBoardLeft + this.m_dblCellWidth / 2 + this.m_dblCellWidth * (19 - 1) + 1, 
+			oy = this.m_dblBoardTop + this.m_dblCellWidth / 2; 
+		for (var i = 0; i < 19; i++)
+		{
+			this.m_ctx.beginPath(); //必须反复beginPath和stroke，才能画粗细不同的线条
+			this.m_ctx.lineWidth = (i == 0 || i == 19 - 1 ? 3 : 1); //边线宽一些
+			//console.log(this.m_ctx.lineWidth);
+			this.m_ctx.moveTo(ox1, oy);
+			this.m_ctx.lineTo(ox2, oy);
+			this.m_ctx.stroke();
+			oy += this.m_dblCellWidth;
+		}
+
+		//竖线
+		var oy1 = this.m_dblBoardTop + this.m_dblCellWidth / 2, 
+			oy2 = this.m_dblBoardTop + this.m_dblCellWidth / 2 + this.m_dblCellWidth * (19 - 1) + 1, 
+			ox = this.m_dblBoardLeft + this.m_dblCellWidth / 2;
+		for (var i = 0; i < 19; i++)
+		{
+			this.m_ctx.beginPath(); 
+			this.m_ctx.lineWidth = (i == 0 || i == 19 - 1 ? 3 : 1); //边线宽一些
+			this.m_ctx.moveTo(ox, oy1);
+			this.m_ctx.lineTo(ox, oy2);
+			this.m_ctx.stroke();
+			ox += this.m_dblCellWidth;
+		}
+
+		//画小黑点
+		var dotpoints = [[3, 3], [9, 3], [15, 3], [3, 9], [9, 9], [15, 9], [3, 15], [9, 15], [15, 15]];
+		for (var i = 0; i < 9; i++)
+		{
+			var xdot = this.m_dblBoardLeft + this.m_dblCellWidth / 2 + this.m_dblCellWidth * dotpoints[i][0];
+			var ydot = this.m_dblBoardTop + this.m_dblCellWidth / 2 + this.m_dblCellWidth * dotpoints[i][1];
+			var fDotRadio = 3; 
+			this.m_ctx.fillStyle = "#880015";
+			this.m_ctx.beginPath(); 
+			this.m_ctx.arc(xdot, ydot, fDotRadio, 0, 10, false);
+			this.m_ctx.fill();
+			this.m_ctx.closePath();
+		}
+	}
+
+	this.drawChessPieces = function()
+	{
+		for (var ix = 0; ix < 19; ix++)
+		{
+			for (var iy = 0; iy < 19; iy++)
+			{
+				var iStatus = this.m_problem.GetPointStatus(ix, iy);
+				if (iStatus == BLACK || iStatus == WHITE)
+				{
+					this.m_ctx.drawImage(iStatus == BLACK ? this.image_blackpiece : this.image_whitepiece, 
+						this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+					var iStepIndex = -1; //第几步（从0开始）
+					for (var i = this.m_problem.m_lstRealSteps.length - 1; i >= 0; i--)
+					{
+						if (this.m_problem.m_lstRealSteps[i].x == ix && this.m_problem.m_lstRealSteps[i].y == iy)
+						{
+							iStepIndex = i;
+							break;
+						}
+					}
+					if (iStepIndex >= 0) //显示序号
+					{
+						var strStep = "" + (iStepIndex + 1);
+						var fontSize = this.m_dblCellWidth * 0.6;
+						this.m_ctx.textAlign="center"; //左右居中
+						this.m_ctx.textBaseline="middle"; //上下居中
+						this.m_ctx.fillStyle = (iStatus == BLACK ? "white" : "black");
+						this.m_ctx.font= "" + fontSize + "px Georgia"; //可以带小数，如："13.222228px Georgia"
+						this.m_ctx.fillText(strStep, this.m_rectPiece[ix][iy].centerx, this.m_rectPiece[ix][iy].centery);
+					}
+				}
+				else //空白
+				{
+					if (ix == this.m_problem.m_iWrongX && iy == this.m_problem.m_iWrongY) //下错的位置
+					{
+						this.m_ctx.drawImage(this.image_wrongpiece, 
+							this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+					}
+					//else if (this.m_problem.needTishi(ix, iy)) //ix == m_problem.m_iTishiX && iy == m_problem.m_iTishiY) //提示的位置
+					//{
+					//	//一秒画60次，0.5秒闪烁一次
+					//	if (this.m_iDrawTick % 60 < 30)
+					//	{
+					//		var iNextColor = this.m_problem.GetNextColor();
+					//		this.m_ctx.drawImage(iStatus == BLACK ? this.image_tishiblackpiece : this.image_tishiwhitepiece, 
+					//			this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+					//	}
+					//}
+				}
+
+				//显示TR（三角）和LB（a、b等标注），不管是否有子都要显示
+				var info = this.m_problem.getCurrentExtraInfo();
+
+				//标注
+				var lstLB = info.m_lstLB;
+				for (var i = 0; i < lstLB.length; i++)
+				{
+					if (ix == lstLB[i].x && iy == lstLB[i].y)
+					{
+						//args.DrawingSession.DrawText(lstLB[i].s, m_rectPiece[ix, iy], Colors.Red, m_symbolLabel);
+						var fontSize = this.m_dblCellWidth * 1.2;
+						this.m_ctx.textAlign="center"; //左右居中
+						this.m_ctx.textBaseline="middle"; //上下居中
+						this.m_ctx.fillStyle = "red";
+						this.m_ctx.font= "" + fontSize + "px Georgia"; //可以带小数，如："13.222228px Georgia"
+						this.m_ctx.fillText(lstLB[i].s, this.m_rectPiece[ix][iy].centerx, this.m_rectPiece[ix][iy].centery);
+						break;
+					}
+				}
+
+				//三角
+				var lstTR = info.m_lstTR;
+				for (var i = 0; i < lstTR.length; i++)
+				{
+					if (ix == lstTR[i].x && iy == lstTR[i].y)
+					{
+						this.m_ctx.drawImage(this.image_triggerpiece, 
+							this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+						break;
+					}
+				}
+
+				//X 形记号  Mark
+				var lstMA = info.m_lstMA;
+				for (var i = 0; i < lstMA.length; i++)
+				{
+					if (ix == lstMA[i].x && iy == lstMA[i].y)
+					{
+						this.m_ctx.drawImage(this.image_markpiece, 
+							this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+						break;
+					}
+				}
+
+				//圆形  Circle
+				var lstCR = info.m_lstCR;
+				for (var i = 0; i < lstCR.length; i++)
+				{
+					if (ix == lstCR[i].x && iy == lstCR[i].y)
+					{
+						this.m_ctx.drawImage(this.image_circlepiece, 
+							this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+						break;
+					}
+				}
+
+				//方块 Square
+				var lstSQ = info.m_lstSQ;
+				for (var i = 0; i < lstSQ.length; i++)
+				{
+					if (ix == lstSQ[i].x && iy == lstSQ[i].y)
+					{
+						this.m_ctx.drawImage(this.image_squarepiece, 
+							this.m_rectPiece[ix][iy].left, this.m_rectPiece[ix][iy].top, this.m_rectPiece[ix][iy].width, this.m_rectPiece[ix][iy].height);
+						break;
+					}
+				}
+			}
+		}
+
+	}
+
+	this.clickQipan = function(offsetX, offsetY)
+	{
+		for (var ix = 0; ix < 19; ix++)
+		{
+			for (var iy = 0; iy < 19; iy++)
+			{
+				if(this.m_rectPiece[ix][iy].hit(offsetX, offsetY))
+				{
+					//摆子模式，直接通知上级scene
+					//if(this.baizimode)
+					//{
+					//	this.m_scene.baizied(ix, iy); //通知scene
+					//	return;
+					//}
+	
+					if (this.m_problem.GetPointStatus(ix, iy) == EMPTY){
+						var iOldStatus = this.m_problem.GetQipuStatus();
+						var bPutRes = this.m_problem.PutPiece(ix, iy);
+						//cc.audioEngine.playEffect(bPutRes ? this.keypressAudio : this.wrongAudio, false);
+	
+						//自动落下一个子
+						//if(this.is_autoput)
+						//{
+						//	if (bPutRes && this.m_problem.GetNextColor() == WHITE && this.m_problem.GetQipuStatus() == QIPUSTATUS_CORRECT)
+						//	{
+						//		var nextsteps2 = this.m_problem.GetNextCorrectSteps();
+						//		if (nextsteps2.length > 0){
+						//			this.m_problem.PutPiece(nextsteps2[0].x, nextsteps2[0].y); //机器落子。如有多种下法，取第一个
+						//		}
+						//	}
+						//}
+	
+						//本局结束，播放胜利的声音
+						if (iOldStatus != QIPUSTATUS_FINISHED && this.m_problem.GetQipuStatus() == QIPUSTATUS_FINISHED){
+							//cc.audioEngine.playEffect(this.successAudio, false);
+						}
+	
+						this.showBoard(); //刷新显示
+						return true;
+					}else{
+						return false;;
+					}
+				}
+			}
+		}
+		return false;
+	}	
+
+
+	this.autoPutNext = function()
+	{
+		if(!this.m_problem.canTishi())
+			return false;
+
+		var nextsteps2 = this.m_problem.GetNextCorrectSteps();
+		if (nextsteps2 != null){
+			this.m_problem.PutPiece(nextsteps2[0].x, nextsteps2[0].y); //机器落子。如有多种下法，取第一个
+			this.showBoard(); //刷新显示
+			return true; //通知scene
+		}
+
+		return false;
+	}
+
+}
+
+function Rect(left, top, width, height)
+{
+	this.left = left;
+	this.top = top;
+	this.width = width;
+	this.height = height;
+	this.centerx = this.left + this.width / 2;
+	this.centery = this.top + this.height / 2;
+
+	this.hit =  function(x, y){
+		return x >= this.left && x <= this.left+this.width && y >= this.top && y <= this.top+this.height;
+	}
+}
+
+/*
+
+
+
+	//是否需要提示
+	setTishiMode : function(tishiMode)
+	{
+		this.m_bTishiMode = tishiMode;
+		this.showBoard();
+	},
+	*/
